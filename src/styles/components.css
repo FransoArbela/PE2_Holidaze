@@ -5,3 +5,7 @@
 .card {
 	@apply rounded-xl border bg-white p-4;
 }
+
+.nav-link {
+	@apply text-text py-1 px-2 decoration-0 hover:bg-bg-hover;
+}

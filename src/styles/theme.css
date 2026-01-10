@@ -3,4 +3,10 @@
 	--color-text: var(--color-text, #333333);
 	--color-heading: var(--color-heading, #111827);
 	--color-content-bg: var(--color-content-bg, #fefffb);
+	--color-fg: var(--color-fg, #ffffff);
+	--color-btn: var(--color-btn, #1e1e1e);
+	--color-btn-text: var(--color-btn-text, #e0e0e0);
+	--color-bg-hover: var(--color-bg-hover, #d4d2d2);
+	--color-btn-bg-hover: var(--color-btn-bg-hover, #dfdfdf);
+	--color-btn-text-hover: var(--color-btn-text-hover, #333333);
 }

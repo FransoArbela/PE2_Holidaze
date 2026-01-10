@@ -13,9 +13,9 @@ export const Header = () => {
 	}, [isDarkMode])
 
 	return (
-		<div className="flex flex-col justify-between items-center">
-			<h2 className="text-md font-bold color-text">Holidaze</h2>
-			<nav className="color-text flex items-center justify-center">
+		<div className="flex flex-col justify-between mt-6 items-center">
+			<h2 className="text-3xl font-bold color-text">Holidaze</h2>
+			<nav className="color-text flex items-center gap-8 justify-center">
 				<div className="flex space-x-4">
 					<Link className="nav-link" to="/">
 						Home
@@ -32,6 +32,12 @@ export const Header = () => {
 					<Link className="nav-link" to="/contact">
 						Contact
 					</Link>
+					<Link className="nav-link" to="/login">
+						Login
+					</Link>
+				</div>
+				<div className="flex">
+					{/* Dark mode toggle button */}
 					<button
 						type="button"
 						className="cursor-pointer hover:transform hover:scale-130 transition-transform"
